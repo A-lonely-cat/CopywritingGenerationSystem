@@ -1,0 +1,2 @@
+# Copywriting_generation_system
+基于ChatGPT的文案生成网站
