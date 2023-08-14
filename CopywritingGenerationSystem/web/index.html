@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>文案生成器</title>
+
+
+        <!-- <link rel="stylesheet" type="text/css" href="Css/style.css"> -->
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Css/style.css') }}">
+        <script defer src="static/Js/script.js"></script>
+    </head>
+
+    <body>
+
+        
+        <main>
+            <h1>{{ h1_text }}</h1>
+            <div class="input-container">
+
+                <input type="text" class="text" name="text" placeholder="text" required="" autofocus id="input">
+                <button onclick="generateText()">submit</button>
+
+                <textarea readonly id="output">只读文本框</textarea>
+                
+            </div>
+        </main>
+
+
+
+    </body>
+</html>
